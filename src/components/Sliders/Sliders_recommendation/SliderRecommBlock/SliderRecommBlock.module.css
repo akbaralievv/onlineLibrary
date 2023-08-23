@@ -1,0 +1,59 @@
+.sliderBlock {
+  width: 480px;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+.sliderBlock .postImage {
+  width: 170px;
+  height: 245px;
+  border-radius: 10px;
+}
+.sliderBlock .postImage img {
+  width: 100%;
+  height: 100%;
+}
+.sliderBlock section {
+  padding: 10px 0;
+}
+.sliderBlock section .postText {
+  width: 244px;
+}
+.sliderBlock section .postText h2 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 125.3%;
+  color: #000000;
+}
+.sliderBlock section .postText p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 125.3%;
+  color: #FF4004;
+}
+.sliderBlock section > button {
+  display: block;
+  margin: 0 auto;
+  padding: 7px 0;
+  text-align: center;
+  width: 200px;
+  background: transparent;
+  border-radius: 10px;
+  border: 2px solid #FF4004;
+}
+.sliderBlock section > button a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 125.3%;
+  color: #FF4004;
+}

@@ -1,0 +1,54 @@
+.parent_download
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 60px
+    padding-top: 50px
+    animation: sliders 1.5s forwards
+    @keyframes sliders
+        0%
+          opacity: 0  
+        100%
+            opacity: 0.9
+    .child_imgs_download
+        display: flex
+        justify-content: center
+        align-items: center
+        @media screen and ( max-width: 600px )
+            display: none
+            
+        > div:nth-child(1)
+            margin-right: -50px
+            @media screen and ( max-width: 1220px )
+                display: none
+        > div:nth-child(2)
+            z-index: 1
+        > div:nth-child(3)
+            margin-left: -50px
+            @media screen and ( max-width: 1220px )
+                display: none
+    .child_text_download
+        p
+            font-family: 'Roboto'
+            font-style: normal
+            font-weight: 600
+            font-size: 20px
+            line-height: 125.3%
+            color: #000
+            text-align: center
+            width: 350px
+            span
+                color: #FF4004
+        button
+            display: block
+            border: none
+            background:#FF4004
+            padding: 10px 40px
+            border-radius: 10px
+            margin: 40px auto 0 
+            font-weight: 600
+            font-size: 20px
+            line-height: 125.3%
+            color: #FFFFFF
+            cursor: pointer
+

@@ -1,0 +1,41 @@
+.parent_SortBtns
+    display: flex
+    flex-direction: column
+    filter: drop-shadow(2px 2px 50px rgba(104, 104, 104, 0.25))
+    border-radius: 10px
+    position: sticky
+    top: 15%
+    overflow: auto
+    height: 328px
+    scrollbar-width: thin
+    scrollbar-color: transparent
+    // left: 50%
+    // transform: translate(-50%, -50%)
+    button
+        padding: 15px 20px
+        text-align: left
+        font-family: 'Roboto'
+        font-style: normal
+        font-weight: 600
+        font-size: 18px
+        line-height: 134%
+        color: #2A2A2A
+        background: #fff
+        border: none
+        border-bottom: 1px solid black
+        cursor: pointer
+    button:first-child
+        border-radius: 10px 10px 0 0
+    button:last-child
+        border-radius: 0 0 10px 10px
+        border: none
+    .active_sort
+        color: white
+        background-color: #FF4004
+    // button:hover
+    //     background: #e4e0e0
+.parent_SortBtns::-webkit-scrollbar 
+    width: 0
+    // height: 0
+    // display: none
+  

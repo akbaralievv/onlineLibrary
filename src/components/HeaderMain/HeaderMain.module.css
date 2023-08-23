@@ -1,0 +1,57 @@
+.parent_header {
+  height: 93vh;
+  background: #E2E2E2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  max-width: 100%;
+}
+@media screen and (max-width: 900px) {
+  .parent_header {
+    display: none;
+  }
+}
+.parent_header .child_header {
+  max-width: 100%;
+  height: 100%;
+}
+.parent_header .child_header .none {
+  display: none;
+}
+.parent_header .child_header .btn_slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  position: absolute;
+  bottom: 20px;
+  margin: auto;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin: auto;
+}
+.parent_header .child_header .btn_slider > button {
+  width: 22px;
+  height: 22px;
+  background: #7C7C7C;
+  border-radius: 50%;
+  border: none;
+  color: #7C7C7C;
+  cursor: pointer;
+}
+.parent_header .child_header .btn_slider .active_btn {
+  background: #FF4004;
+  color: #FF4004;
+  scale: 1.15;
+}

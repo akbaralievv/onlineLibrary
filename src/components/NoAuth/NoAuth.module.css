@@ -1,0 +1,72 @@
+.parent_noAuth {
+  height: 78vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 100px 0 0 0;
+}
+.parent_noAuth h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 125.3%;
+  color: #7C7C7C;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+@media screen and (max-width: 750px) {
+  .parent_noAuth h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 750px) and (max-width: 750px) {
+  .parent_noAuth h1 {
+    font-size: 20px;
+  }
+}
+.parent_noAuth p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 125.3%;
+  color: #7C7C7C;
+}
+@media screen and (max-width: 750px) {
+  .parent_noAuth p {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 750px) and (max-width: 750px) {
+  .parent_noAuth p {
+    font-size: 16px;
+  }
+}
+.parent_noAuth p button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 125.3%;
+  color: #FF4004;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+@media screen and (max-width: 750px) {
+  .parent_noAuth p button {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 750px) and (max-width: 750px) {
+  .parent_noAuth p button {
+    font-size: 16px;
+  }
+}

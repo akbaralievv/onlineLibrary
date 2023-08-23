@@ -1,0 +1,245 @@
+div h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 125.3%;
+  color: #000000;
+  text-align: center;
+  padding: 0 0 40px 0px;
+}
+@media screen and (max-width: 600px) {
+  div h3 {
+    font-size: 25px;
+  }
+}
+div h3::first-letter {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 125.3%;
+  letter-spacing: 7px;
+  color: #FF4004;
+}
+@media screen and (max-width: 600px) {
+  div h3::first-letter {
+    font-size: 45px;
+  }
+}
+div .parent_writers {
+  padding: 0px;
+  background: #e2dddd;
+}
+div .parent_writers > div {
+  width: 100%;
+}
+div .parent_writers .child_writers {
+  cursor: pointer;
+  padding: 1px 0px;
+}
+div .parent_writers .child_writers .header_text_writers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+div .parent_writers .child_writers .header_text_writers span {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 125.3%;
+  color: #FF4004;
+}
+div .parent_writers .child_writers .header_text_writers h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 125.3%;
+  color: #000000;
+}
+div .parent_writers .child_writers .parent_sliderWriters {
+  margin: 20px 0 20px 0;
+  background: #fff;
+  padding: 50px 25px 50px;
+  border-radius: 15px;
+  -webkit-box-shadow: -1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: -1px 1px 4px 1px rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-width: 900px) {
+  div .parent_writers .child_writers .parent_sliderWriters {
+    padding: 30px 10px;
+  }
+}
+@media screen and (max-width: 900px) and (max-width: 500px) {
+  div .parent_writers .child_writers .parent_sliderWriters {
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px 15px 10px;
+  }
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters {
+  width: 75%;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+  div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters {
+    width: 100%;
+  }
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters .img_writers {
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media screen and (max-width: 850px) {
+  div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters .img_writers {
+    width: 350px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 850px) and (max-width: 600px) {
+  div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters .img_writers {
+    display: none;
+  }
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters .img_writers img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div {
+  width: 580px;
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div h2 {
+  color: #000;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0 0 20px 0;
+}
+@media screen and (max-width: 850px) {
+  div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+  }
+}
+@media screen and (max-width: 850px) and (max-width: 750px) {
+  div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div h2 {
+    font-size: 12px;
+  }
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider {
+  width: 100%;
+  height: 100%;
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider div {
+  margin-bottom: 8px;
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 125.3%;
+  color: #000000;
+  display: inline;
+  margin-right: 8px;
+}
+@media screen and (max-width: 850px) {
+  div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider h4 {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 850px) and (max-width: 750px) {
+  div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider h4 {
+    font-size: 10px;
+  }
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider p {
+  width: 380px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  display: inline;
+}
+@media screen and (max-width: 850px) {
+  div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 850px) and (max-width: 750px) {
+  div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider p {
+    font-size: 10px;
+  }
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider div:nth-child(1) {
+  max-height: 85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider div:nth-child(2) {
+  max-height: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider div:nth-child(3) {
+  max-height: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider div:nth-child(3) span {
+  color: #000;
+}
+@media screen and (max-width: 750px) {
+  div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider div:nth-child(3) span {
+    font-size: 12px;
+  }
+}
+div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider a button {
+  color: white;
+  background: #FF4004;
+  padding: 10px 65px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 32px;
+  margin: 20px 0 0 0;
+}
+@media screen and (max-width: 900px) {
+  div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider a button {
+    padding: 5px 20px;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+  }
+}
+@media screen and (max-width: 900px) and (max-width: 750px) {
+  div .parent_writers .child_writers .parent_sliderWriters .child_sliderWriters > div .moreText_Slider a button {
+    font-size: 12px;
+    padding: 2px 10px;
+  }
+}

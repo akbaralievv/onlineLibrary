@@ -1,0 +1,157 @@
+.parent_login {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+.parent_login .inner_login_left {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+}
+.parent_login .inner_login_right {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+@media screen and (max-width: 1050px) {
+  .parent_login .inner_login_right {
+    display: none;
+  }
+}
+.parent_login .inner_login_right img {
+  width: 100%;
+  height: 100%;
+}
+.parent_login .child_login {
+  position: absolute;
+  height: 100%;
+  width: 1200px;
+  padding-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media screen and (max-width: 1200px) {
+  .parent_login .child_login {
+    width: 1030px;
+  }
+}
+@media screen and (max-width: 1200px) and (max-width: 1050px) {
+  .parent_login .child_login {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+}
+.parent_login .child_login .child_login_left {
+  width: 350px;
+  text-align: center;
+}
+@media screen and (max-width: 380px) {
+  .parent_login .child_login .child_login_left {
+    width: 310px;
+  }
+}
+.parent_login .child_login .child_login_left .block_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+.parent_login .child_login .child_login_left .block_logo div {
+  width: 50px;
+  height: 34px;
+}
+.parent_login .child_login .child_login_left .block_logo div img {
+  width: 100%;
+  height: 100%;
+}
+.parent_login .child_login .child_login_left .block_logo h1 {
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 5px;
+  color: #2A2A2A;
+}
+.parent_login .child_login .child_login_left h2 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 125.3%;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.parent_login .child_login .child_login_left p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 125.3%;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.parent_login .child_login .child_login_left .block_btns_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+.parent_login .child_login .child_login_left .block_btns_active button {
+  width: 185px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125.3%;
+  background-color: transparent;
+}
+.parent_login .child_login .child_login_left .block_btns_active button a {
+  color: #2A2A2A;
+}
+.parent_login .child_login .child_login_left .block_btns_active .active_btn_win {
+  width: 185px;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125.3%;
+  color: #fff;
+  background: #FF4004;
+}
+@media screen and (max-width: 1050px) {
+  .parent_login .child_login .child_login_right {
+    display: none;
+  }
+}
+.parent_login .child_login .child_login_right p {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 125.3%;
+  color: #FFFFFF;
+  width: 482px;
+  text-align: center;
+}

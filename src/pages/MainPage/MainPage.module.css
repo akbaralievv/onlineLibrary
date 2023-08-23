@@ -1,0 +1,19 @@
+.inner_wrapper {
+  max-width: 100%;
+  padding: 50px 0 20px;
+}
+@media screen and (max-width: 900px) {
+  .inner_wrapper {
+    padding: 0px;
+  }
+}
+.inner_wrapper .parent_downloadSlide {
+  background: -webkit-gradient(linear, left top, right top, from(#FFFEFF), to(#D7FFFE));
+  background: linear-gradient(90deg, #FFFEFF 0%, #D7FFFE 100%);
+  padding: 50px 20px 10px;
+}
+@media screen and (max-width: 460px) {
+  .inner_wrapper .parent_downloadSlide {
+    display: none;
+  }
+}

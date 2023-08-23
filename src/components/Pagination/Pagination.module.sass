@@ -1,0 +1,42 @@
+
+.bookText
+  font-weight: 400
+  font-size: 24px
+  line-height: 48px
+  letter-spacing: 0.11em
+  color: black
+  text-align: left
+  
+.paginationContainer
+  margin-top: 60px
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 0 42px
+  @media screen and ( max-width: 970px )
+    padding: 0 0
+  .paginationPrev, .paginationNext 
+    font-weight: 500
+    font-size: 24px
+    line-height: 30px
+    color: white
+    background-color: #FF4004
+    padding: 10px 26px
+    border-radius: 10px
+    cursor: pointer
+  .paginationNum, .paginationBreak
+    font-weight: 500
+    font-size: 36px
+    line-height: 45px
+    color: black
+    cursor: pointer
+  .activeNum
+    background-color: #FF4004
+    color: white
+    padding: 5px 10px
+    font-weight: 500
+    font-size: 36px
+    line-height: 45px
+    border-radius: 10px
+    
+  

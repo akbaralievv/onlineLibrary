@@ -1,0 +1,109 @@
+.parent_preloader
+    height: 100vh
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    position: fixed
+    top: 0
+    right: 0
+    z-index: 50
+    background: #fff
+.lds_roller 
+  display: inline-block
+  position: relative
+  width: 240px
+  height: 240px
+  margin: 0 auto
+.lds_roller div 
+  animation: lds_roller 1.5s cubic-bezier(0.5, 0, 0.8, 1) infinite
+  transform-origin: 120px 120px
+
+.lds_roller div:after 
+  content: " "
+  display: block
+  position: absolute
+  border-radius: 50%
+  background: #000
+  margin: -12px 0 0 -12px
+
+.lds_roller div:nth-child(1) 
+  animation-delay: -0.1s
+
+.lds_roller div:nth-child(1):after 
+  top: 189px
+  left: 189px
+  width: 13px
+  height: 13px
+
+.lds_roller div:nth-child(2) 
+  animation-delay: -0.15s
+
+.lds_roller div:nth-child(2):after 
+  top: 204px
+  left: 168px
+  width: 15px
+  height: 15px
+
+.lds_roller div:nth-child(3) 
+  animation-delay: -0.2s
+
+.lds_roller div:nth-child(3):after 
+  top: 213px
+  left: 144px
+  width: 17px
+  height: 17px
+
+.lds_roller div:nth-child(4) 
+  animation-delay: -0.25s
+
+.lds_roller div:nth-child(4):after 
+  top: 216px
+  left: 120px
+  width: 19px
+  height: 19px
+
+.lds_roller div:nth-child(5) 
+  animation-delay: -0.3s
+
+.lds_roller div:nth-child(5):after 
+  top: 213px
+  left: 96px
+  width: 21px
+  height: 21px
+
+.lds_roller div:nth-child(6) 
+  animation-delay: -0.35s
+
+.lds_roller div:nth-child(6):after 
+  top: 204px
+  left: 72px
+  width: 23px
+  height: 23px
+
+.lds_roller div:nth-child(7) 
+  animation-delay: -0.4s
+
+.lds_roller div:nth-child(7):after 
+  top: 186px
+  left: 51px
+  width: 24px
+  height: 24px
+
+.lds_roller div:nth-child(8) 
+  animation-delay: -0.45s
+
+.lds_roller div:nth-child(8):after 
+  top: 168px
+  left: 36px
+  width: 25px
+  height: 25px
+
+@keyframes lds_roller 
+  0% 
+    transform: rotate(0deg)
+  
+  100% 
+    transform: rotate(360deg)
+  
+

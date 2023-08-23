@@ -1,0 +1,125 @@
+.slider {
+  padding: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1200px) {
+  .slider {
+    padding: 10px 0px;
+  }
+}
+@media screen and (max-width: 1200px) and (max-width: 1180px) {
+  .slider {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) and (max-width: 1180px) and (max-width: 1030px) and (max-width: 900px) {
+  .slider {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1200px) and (max-width: 1180px) and (max-width: 1030px) and (max-width: 900px) and (max-width: 730px) {
+  .slider {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1200px) and (max-width: 1180px) and (max-width: 1030px) and (max-width: 900px) and (max-width: 730px) and (max-width: 550px) {
+  .slider {
+    width: 100%;
+  }
+}
+.slider > div {
+  max-width: 100%;
+  padding: 20px 0px;
+}
+.slider > div > div {
+  padding: 20px 0px;
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 1300px) {
+  .slider > div > div {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1300px) and (max-width: 550px) {
+  .slider > div > div {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .slider > div > div > div > div {
+    width: 200px;
+  }
+}
+.slider > div > div > div > div > div {
+  width: 480px;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+@media screen and (max-width: 1030px) and (max-width: 900px) {
+  .slider > div > div > div > div > div {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 1030px) and (max-width: 900px) and (max-width: 550px) {
+  .slider > div > div > div > div > div {
+    padding: 0px 0 30px 0;
+  }
+}
+@media screen and (max-width: 1030px) and (max-width: 900px) and (max-width: 550px) and (max-width: 380px) {
+  .slider > div > div > div > div > div {
+    width: 151px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .slider > div > div > div > div > div > div {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1100px) and (max-width: 900px) {
+  .slider > div > div > div > div > div > div {
+    width: 200px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1100px) and (max-width: 900px) and (max-width: 550px) {
+  .slider > div > div > div > div > div > div {
+    width: 151px;
+  }
+}
+
+.all_books {
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .all_books {
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) and (max-width: 600px) {
+  .all_books a {
+    width: 88%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5px;
+    margin: -30px 0 0 0;
+  }
+}
+@media screen and (max-width: 600px) and (max-width: 600px) and (max-width: 400px) {
+  .all_books a {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .all_books a > p {
+    color: #000;
+  }
+}

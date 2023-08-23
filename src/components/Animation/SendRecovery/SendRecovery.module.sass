@@ -1,0 +1,37 @@
+.sendRecovery_parent 
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 50px
+    border-radius: 8px
+    .wave 
+        position: absolute
+        width: 70px
+        height: 70px
+        top: 50%
+        left: 50%
+        background-color: rgba(180, 177, 177, 0.511)
+        border-radius: 8px
+        display: flex
+        justify-content: center
+        align-items: center
+        border-radius: 50%
+        transform: translate(-50%, -50%)
+        animation: anim 2s forwards
+        @keyframes anim
+            0% 
+                transform: scale(0.3)
+                background: rgba(194, 59, 18, 0.5)
+            40% 
+                transform: scale(50)
+                background: rgba(165, 158, 158, 0.605)
+            80% 
+                transform: scale(50)
+                background: #fff
+            100% 
+                transform: scale(50)
+                background: #fff
+                
+
+  

@@ -1,0 +1,103 @@
+.parent_resently {
+  padding: 150px 0 100px;
+}
+.parent_resently .inner_resently {
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.parent_resently .inner_resently .inner_resently_author div {
+  width: 200px;
+  height: 200px;
+}
+.parent_resently .inner_resently .inner_resently_author div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.parent_resently .inner_resently .inner_resently_author section {
+  border: 2px solid #000000;
+  border-radius: 10px;
+  width: 175px;
+  margin: 20px auto 0;
+  text-align: center;
+  padding: 12px;
+}
+.parent_resently .inner_resently .inner_resently_author section p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+.parent_resently .inner_resently .inner_resently_author section span {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8D8D8D;
+}
+.parent_resently .inner_resently .inner_resently_infoBook h5 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+.parent_resently .inner_resently .inner_resently_infoBook > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+.parent_resently .inner_resently .inner_resently_infoBook > div div {
+  width: 225px;
+  height: 300px;
+}
+.parent_resently .inner_resently .inner_resently_infoBook > div div img {
+  width: 100%;
+  height: 100%;
+}
+.parent_resently .inner_resently .inner_resently_infoBook > div section p {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+}
+.parent_resently .inner_resently .inner_resently_infoBook > div section span {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin: 12px 0;
+}
+.parent_resently .inner_resently .inner_resently_infoBook > div section b {
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  opacity: 0.6;
+}
+.parent_resently .inner_resently .inner_resently_infoBook > div section button {
+  padding: 10px;
+  background-color: #FF4004;
+  -webkit-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-top: 24px;
+}

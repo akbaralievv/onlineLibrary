@@ -1,0 +1,92 @@
+.parent_download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 60px;
+  padding-top: 50px;
+  -webkit-animation: sliders 1.5s forwards;
+          animation: sliders 1.5s forwards;
+}
+@-webkit-keyframes sliders {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+@keyframes sliders {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+.parent_download .child_imgs_download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .parent_download .child_imgs_download {
+    display: none;
+  }
+}
+.parent_download .child_imgs_download > div:nth-child(1) {
+  margin-right: -50px;
+}
+@media screen and (max-width: 1220px) {
+  .parent_download .child_imgs_download > div:nth-child(1) {
+    display: none;
+  }
+}
+.parent_download .child_imgs_download > div:nth-child(2) {
+  z-index: 1;
+}
+.parent_download .child_imgs_download > div:nth-child(3) {
+  margin-left: -50px;
+}
+@media screen and (max-width: 1220px) {
+  .parent_download .child_imgs_download > div:nth-child(3) {
+    display: none;
+  }
+}
+.parent_download .child_text_download p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 125.3%;
+  color: #000;
+  text-align: center;
+  width: 350px;
+}
+.parent_download .child_text_download p span {
+  color: #FF4004;
+}
+.parent_download .child_text_download button {
+  display: block;
+  border: none;
+  background: #FF4004;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin: 40px auto 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 125.3%;
+  color: #FFFFFF;
+  cursor: pointer;
+}

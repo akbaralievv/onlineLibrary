@@ -1,0 +1,52 @@
+.parent_detailed {
+  padding: 80px 0 0 0;
+}
+.parent_detailed .short_description h2 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+  text-align: center;
+  padding: 50px 0 30px;
+}
+@media screen and (max-width: 500px) {
+  .parent_detailed .short_description h2 {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    padding: 5px 20px;
+  }
+}
+.parent_detailed .short_description p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+  text-indent: 35px;
+  width: 85%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 850px) {
+  .parent_detailed .short_description p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 850px) and (max-width: 500px) {
+  .parent_detailed .short_description p {
+    padding: 0px;
+    font-size: 16px;
+    text-align: left;
+    padding: 0 20px;
+    text-indent: 0px;
+  }
+}
+.parent_detailed .comments_parent h5 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  color: #000000;
+  padding: 40px 0 55px;
+}

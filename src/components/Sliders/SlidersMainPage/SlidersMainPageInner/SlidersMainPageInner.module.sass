@@ -1,0 +1,171 @@
+.sliderBlock 
+    width: 480px
+    height: 290px
+    padding: 20px
+    cursor: pointer
+    box-shadow: 0px 10px 25px rgba(104, 104, 104, 0.5)
+    border-radius: 10px
+    display: flex
+    align-items: center 
+    gap: 20px
+    margin: 0 auto
+    position: relative
+    @media screen and ( max-width: 1100px )
+        width: 400px
+        gap: 10px
+        @media screen and ( max-width: 900px )
+            width: 250px
+            flex-direction: column
+            gap: 5px
+            max-width: 230px
+            margin: 0 auto
+            height: 320px
+            padding: 15px
+            @media screen and ( max-width: 550px )
+                max-width: 151px
+                height: 258px
+                padding: 8px
+                // background: red
+    .postImage 
+        width: 170px
+        height: 245px
+        border-radius: 10px
+        @media screen and ( max-width: 1100px )
+            height: 220px
+            @media screen and ( max-width: 550px )
+                width: 128px
+                height: 184px
+                // background: red
+        img
+            width: 100%
+            height: 100%
+            border-radius: 10px
+    section
+        padding: 25px 0 0 0
+        @media screen and ( max-width: 1100px )
+            max-width: 80%
+            padding: 0px
+            @media screen and ( max-width: 900px )
+                max-width: 100%
+        .postText 
+            max-width: 244px
+            @media screen and ( max-width: 1100px )
+                max-width: 220px
+                @media screen and ( max-width: 550px )
+                    margin: 5px 0
+            h2
+                font-weight: 500
+                font-size: 30px
+                line-height: 125.3%
+                color: #000000
+                height: 40px
+                overflow: hidden 
+                text-overflow: ellipsis
+                white-space: nowrap
+                margin: 10px 0 0 0 
+                max-width: 100%
+                @media screen and ( max-width: 1100px )
+                    margin: 10px 0 0 0
+                    max-width: 80%
+                    @media screen and ( max-width: 900px )
+                        font-size: 20px
+                        width: 200px
+                        max-width: 80%
+                        overflow: hidden 
+                        text-overflow: ellipsis
+                        white-space: nowrap
+                        margin: 0px auto
+                        text-align: center
+                        @media screen and ( max-width: 550px )
+                            font-weight: 400
+                            font-size: 16px
+                            line-height: 18px
+                            text-align: left
+                            height: 20px
+                            margin: 0
+                            padding: 0 0 0 5px
+                            // background: red
+            p 
+                font-weight: 500
+                font-size: 24px
+                line-height: 125.3%
+                color: #FF4004
+                height: 30px
+                overflow: hidden 
+                text-overflow: ellipsis
+                white-space: nowrap
+                max-width: 100%
+                margin: 10px 0 0 0
+                @media screen and ( max-width: 1100px )
+                    max-width: 80%
+                    @media screen and ( max-width: 900px )
+                        display: none
+        .rating_Star
+            display: flex
+            justify-content: space-between
+            width: 100%
+            // background: red
+            margin: 0px
+            @media screen and ( max-width: 900px )
+                padding: 0px
+                @media screen and ( max-width: 550px )
+                    width: 100%
+                    padding: 0 5px
+                    margin: 5px 0
+            > div
+                // height: 20px
+                @media screen and ( max-width: 900px )
+                    margin: 0
+                    justify-content: left
+                    align-items: center
+                    gap: 5px
+                    > svg
+                        width: 20px
+                        height: 20px
+                    > svg:not(:first-child)
+                        display: none
+                    > p
+                        font-size: 16px
+            .content_adaptaion
+                display: none
+                @media screen and ( max-width: 900px )
+                    display: block
+                    font-size: 14px
+                    width: 100%
+                    // background: red
+                    overflow: hidden
+                    height: 20px
+                    white-space: nowrap
+                    text-overflow: ellipsis
+                    color: #656464
+        a
+            > button
+                display: block
+                margin: 20px auto 40px
+                padding: 7px 0
+                text-align: center
+                width: 244px
+                background: transparent
+                border-radius: 10px
+                border: 2px solid #FF4004
+                font-family: 'Roboto'
+                font-style: normal
+                font-weight: 500
+                font-size: 24px
+                line-height: 125.3%
+                color: #FF4004
+                cursor: pointer
+                @media screen and ( max-width: 1100px )
+                    margin: 0px 0 10px 0
+                    width: 220px
+                    @media screen and ( max-width: 900px )
+                        display: none
+    .modile_version
+        display: none
+        @media screen and ( max-width: 900px )
+            display: block
+            position: absolute
+            height: 100%
+            width: 100%
+
+

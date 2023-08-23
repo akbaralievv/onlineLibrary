@@ -1,0 +1,107 @@
+.back_shadow_changeData
+    position: fixed
+    width: 100%
+    height: 100vh
+    z-index: 16
+    top: 0
+    left: 0
+.parent_changeData
+    width: 650px
+    position: fixed
+    z-index: 17
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    border-radius: 10px
+    border-radius: 10px
+    background: #FFF
+    box-shadow: 2px 2px 50px 0px rgba(104, 104, 104, 0.25)
+    padding: 80px
+    @media screen and ( max-width: 750px )
+        padding: 20px
+        width: 340px
+    > div
+        text-align: left
+        max-width: 400px
+        margin: 0 auto
+        @media screen and ( max-width: 750px )
+            width: 300px
+        h6
+            color: #000
+            font-size: 24px
+            font-family: Roboto
+            font-weight: 500
+            line-height: 125.303%
+            margin:  0 0 20px 0
+            text-align: center
+            @media screen and ( max-width: 750px )
+                font-size: 18px
+                font-weight: 600
+                
+        p
+            color: var(--unnamed, #7C7C7C)
+            font-size: 18px
+            font-family: Roboto
+            line-height: 125%
+            margin:  8px 0
+            @media screen and ( max-width: 750px )
+                font-size: 15px
+        > p
+            @media screen and ( max-width: 750px )
+                padding: 0 0 0 15px
+        form
+            width: 100%
+            @media screen and ( max-width: 750px )
+                width: 90%
+                margin: 0 auto
+            .lookBtn
+                position: relative
+            input
+                width: 100%
+                height: 45px
+                border-radius: 10px
+                border: 2px solid var(--unnamed, #2A2A2A)
+                color: var(--unnamed, #7C7C7C)
+                font-size: 18px
+                font-family: Roboto
+                line-height: 125%
+                margin: 0 0 20px 0
+                padding: 0 15px
+                @media screen and ( max-width: 750px )
+                    height: 35px
+                    border-radius: 7px
+                    margin: 0 0 10px 0
+            input::placeholder
+                @media screen and ( max-width: 750px )
+                    font-size: 16px
+                
+            > div
+                display: flex
+                justify-content: center
+                button:nth-child(2)
+                    border-radius: 10px
+                    border: 3px solid var(--unnamed, #FF4004)
+                    background: var(--unnamed, #FF4004)
+                    padding: 8px 30px
+                    color: var(--unnamed, #FFF)
+                    font-size: 18px
+                    font-family: Roboto
+                    font-weight: 600
+                    line-height: 134%
+                    cursor: pointer
+                    @media screen and ( max-width: 750px )
+                        padding: 5px 10px
+                button:nth-child(1)
+                    border-radius: 10px
+                    border: none
+                    background: #fff
+                    padding: 8px 30px
+                    color: #000
+                    font-size: 18px
+                    font-family: Roboto
+                    font-weight: 600
+                    line-height: 134%
+                    cursor: pointer
+                    @media screen and ( max-width: 750px )
+                        padding: 5px 10px
+

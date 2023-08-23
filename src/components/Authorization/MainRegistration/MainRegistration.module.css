@@ -1,0 +1,157 @@
+.parent_refistration form {
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+}
+.parent_refistration form > .registration_Email {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  padding: 0 30px 0 50px;
+  border: 1px solid #2A2A2A;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 10px 0;
+  background: url("../../../assests/images/windows/email.svg");
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position: 15px;
+  cursor: pointer;
+}
+.parent_refistration form > .block_password_look {
+  display: block;
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin: 10px 0 5px;
+}
+.parent_refistration form > .block_password_look input {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  padding: 0 50px;
+  border: 1px solid #2A2A2A;
+  font-weight: 600;
+  font-size: 16px;
+  background: url("../../../assests/images/windows/key.svg");
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position: 15px;
+  cursor: pointer;
+}
+.parent_refistration form > .block_passwordRepeat_look {
+  display: block;
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin: 20px 0 25px;
+}
+.parent_refistration form > .block_passwordRepeat_look input {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  padding: 0 30px 0 50px;
+  border: 1px solid #2A2A2A;
+  font-weight: 600;
+  font-size: 16px;
+  background: url("../../../assests/images/windows/key.svg");
+  background-repeat: no-repeat;
+  background-position-y: 50%;
+  background-position: 15px;
+  cursor: pointer;
+}
+.parent_refistration form > .label_emailError {
+  position: absolute;
+  display: block;
+  width: 280px;
+  background: #fff;
+  -webkit-box-shadow: 2px 2px 50px rgba(104, 104, 104, 0.25);
+          box-shadow: 2px 2px 50px rgba(104, 104, 104, 0.25);
+  color: #000;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 2px 30px;
+  letter-spacing: 3px;
+  margin: -8px 0 0 35px;
+  z-index: 1;
+}
+.parent_refistration form > .label_passwordError {
+  display: block;
+  background: #fff;
+  -webkit-box-shadow: 2px 2px 50px rgba(104, 104, 104, 0.25);
+          box-shadow: 2px 2px 50px rgba(104, 104, 104, 0.25);
+  color: #000;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px 20px;
+  position: absolute;
+  z-index: 1;
+  letter-spacing: 1px;
+  margin: -8px 0 0 35px;
+}
+.parent_refistration form > .label_passwordError_repeat {
+  display: block;
+  background: #fff;
+  -webkit-box-shadow: 2px 2px 50px rgba(104, 104, 104, 0.25);
+          box-shadow: 2px 2px 50px rgba(104, 104, 104, 0.25);
+  color: #000;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px 20px;
+  position: absolute;
+  letter-spacing: 1px;
+  margin: -25px 0 0 55px;
+}
+.parent_refistration form .block_checkbox {
+  width: 280px;
+  margin: 0 auto 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 13px;
+}
+.parent_refistration form .block_checkbox input {
+  width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  border: 5px solid #FF4004;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.parent_refistration form .block_checkbox label {
+  text-align: left;
+}
+.parent_refistration form .block_checkbox label span:nth-child(1) {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 5px;
+  color: #2A2A2A;
+}
+.parent_refistration form .block_checkbox label span:nth-child(2) {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 5px;
+  color: #FF4004;
+  margin-left: 4px;
+}
+.parent_refistration form > button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125.3%;
+  color: #FFFFFF;
+  width: 100%;
+  height: 50px;
+  background-color: #FF4004;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+}
+.parent_refistration form .shadow_btn {
+  opacity: 0.5;
+}

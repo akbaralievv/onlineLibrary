@@ -1,0 +1,141 @@
+.parent_navMenu
+    background-color: #fff
+    padding: 25px 0px
+    position: fixed
+    width: 100%
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.10)
+    z-index: 10
+    @media screen and ( max-width: 900px )
+        padding: 10px 0px 40px 0
+    .child_navMenu
+        display: flex
+        justify-content: space-between
+        align-items: center
+        // height: 100vh
+        @media screen and ( max-width: 900px )
+            flex-direction: column
+            animation: menu__animation 1.5s forwards
+            @keyframes menu__animation
+                0%
+                    opacity: 0  
+                100%
+                    opacity: 0.9
+        .mainLogo
+            a
+                display: flex
+                align-items: center
+                cursor: pointer
+                @media screen and ( max-width: 900px )
+                    gap: 15px
+                div
+                    width: 63px
+                    height: 42px
+                    @media screen and ( max-width: 1140px )
+                        width: 43px
+                        height: 42px
+                    img
+                        width: 100%
+                        height: 100%
+                h1
+                    font-weight: 600
+                    font-size: 29.44px
+                    line-height: 5px
+                    color: #2A2A2A
+                    font-family: 'Roboto'
+                    font-style: normal
+                    @media screen and ( max-width: 1140px )
+                        font-size: 25px
+                        @media screen and ( max-width: 900px )
+                            margin: 30px 0
+        .mainMenu_desktop
+            ul
+                display: flex
+                justify-content: center
+                gap: 50px
+                align-items: center
+                @media screen and ( max-width: 1140px )
+                    gap: 30px
+                    @media screen and ( max-width: 900px )
+                        flex-direction: column
+                        gap: 20px
+                li
+                    position: relative
+                    height: 30px
+                    a
+                        font-weight: 500
+                        font-size: 24px
+                        line-height: 125.3%
+                        color: #2A2A2A
+                        @media screen and ( max-width: 1140px )
+                            font-size: 18px
+                    .activeNavMenu
+                        color: #FF4004
+                    .activeNavMenu:after
+                        content: ""
+                        // display: inline-block
+                        position: absolute
+                        bottom: -5px
+                        left: 0px
+                        height: 3px
+                        width: 100%
+                        background-color: #FF4004
+                        @media screen and ( max-width: 900px )
+                            display: none
+        .otherMenu_btn
+            width: 150px
+            text-align: right
+            @media screen and ( max-width: 900px )
+                margin: 20px 0 0 0
+.menuNav_mobile
+    display: none
+    @media screen and ( max-width: 900px )
+        background-color: #fff
+        padding: 8px 0px
+        position: fixed
+        width: 100%
+        z-index: 99
+        display: flex
+        justify-content: center
+    button
+        // margin: 0 30px 0 0 
+        background: #fff
+        border: none
+        position: absolute
+        right: 30px
+        top: 25px
+    .mainLogo
+        a
+            display: flex
+            align-items: center
+            cursor: pointer
+            @media screen and ( max-width: 900px )
+                gap: 15px
+            div
+                width: 63px
+                height: 42px
+                @media screen and ( max-width: 1140px )
+                    width: 43px
+                    height: 42px
+                img
+                    width: 100%
+                    height: 100%
+            h1
+                font-weight: 600
+                font-size: 29.44px
+                line-height: 5px
+                color: #2A2A2A
+                font-family: 'Roboto'
+                font-style: normal
+                @media screen and ( max-width: 1140px )
+                    font-size: 25px
+                    @media screen and ( max-width: 900px )
+                        margin: 30px 0
+.shadow_navMenu
+    @media screen and ( max-width: 900px )
+        // background: white
+        position: fixed
+        height: 100vh
+        top: 0
+        right: 0
+        width: 100%
+        z-index: 9

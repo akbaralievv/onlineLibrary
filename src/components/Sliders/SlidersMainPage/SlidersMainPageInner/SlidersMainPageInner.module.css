@@ -1,0 +1,254 @@
+.sliderBlock {
+  width: 480px;
+  height: 290px;
+  padding: 20px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 10px 25px rgba(104, 104, 104, 0.5);
+          box-shadow: 0px 10px 25px rgba(104, 104, 104, 0.5);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin: 0 auto;
+  position: relative;
+}
+@media screen and (max-width: 1100px) {
+  .sliderBlock {
+    width: 400px;
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 1100px) and (max-width: 900px) {
+  .sliderBlock {
+    width: 250px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 5px;
+    max-width: 230px;
+    margin: 0 auto;
+    height: 320px;
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 1100px) and (max-width: 900px) and (max-width: 550px) {
+  .sliderBlock {
+    max-width: 151px;
+    height: 258px;
+    padding: 8px;
+  }
+}
+.sliderBlock .postImage {
+  width: 170px;
+  height: 245px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1100px) {
+  .sliderBlock .postImage {
+    height: 220px;
+  }
+}
+@media screen and (max-width: 1100px) and (max-width: 550px) {
+  .sliderBlock .postImage {
+    width: 128px;
+    height: 184px;
+  }
+}
+.sliderBlock .postImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.sliderBlock section {
+  padding: 25px 0 0 0;
+}
+@media screen and (max-width: 1100px) {
+  .sliderBlock section {
+    max-width: 80%;
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 1100px) and (max-width: 900px) {
+  .sliderBlock section {
+    max-width: 100%;
+  }
+}
+.sliderBlock section .postText {
+  max-width: 244px;
+}
+@media screen and (max-width: 1100px) {
+  .sliderBlock section .postText {
+    max-width: 220px;
+  }
+}
+@media screen and (max-width: 1100px) and (max-width: 550px) {
+  .sliderBlock section .postText {
+    margin: 5px 0;
+  }
+}
+.sliderBlock section .postText h2 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 125.3%;
+  color: #000000;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 10px 0 0 0;
+  max-width: 100%;
+}
+@media screen and (max-width: 1100px) {
+  .sliderBlock section .postText h2 {
+    margin: 10px 0 0 0;
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 1100px) and (max-width: 900px) {
+  .sliderBlock section .postText h2 {
+    font-size: 20px;
+    width: 200px;
+    max-width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 0px auto;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1100px) and (max-width: 900px) and (max-width: 550px) {
+  .sliderBlock section .postText h2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    height: 20px;
+    margin: 0;
+    padding: 0 0 0 5px;
+  }
+}
+.sliderBlock section .postText p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 125.3%;
+  color: #FF4004;
+  height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+  margin: 10px 0 0 0;
+}
+@media screen and (max-width: 1100px) {
+  .sliderBlock section .postText p {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 1100px) and (max-width: 900px) {
+  .sliderBlock section .postText p {
+    display: none;
+  }
+}
+.sliderBlock section .rating_Star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+}
+@media screen and (max-width: 900px) {
+  .sliderBlock section .rating_Star {
+    padding: 0px;
+  }
+}
+@media screen and (max-width: 900px) and (max-width: 550px) {
+  .sliderBlock section .rating_Star {
+    width: 100%;
+    padding: 0 5px;
+    margin: 5px 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .sliderBlock section .rating_Star > div {
+    margin: 0;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5px;
+  }
+  .sliderBlock section .rating_Star > div > svg {
+    width: 20px;
+    height: 20px;
+  }
+  .sliderBlock section .rating_Star > div > svg:not(:first-child) {
+    display: none;
+  }
+  .sliderBlock section .rating_Star > div > p {
+    font-size: 16px;
+  }
+}
+.sliderBlock section .rating_Star .content_adaptaion {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .sliderBlock section .rating_Star .content_adaptaion {
+    display: block;
+    font-size: 14px;
+    width: 100%;
+    overflow: hidden;
+    height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #656464;
+  }
+}
+.sliderBlock section a > button {
+  display: block;
+  margin: 20px auto 40px;
+  padding: 7px 0;
+  text-align: center;
+  width: 244px;
+  background: transparent;
+  border-radius: 10px;
+  border: 2px solid #FF4004;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 125.3%;
+  color: #FF4004;
+  cursor: pointer;
+}
+@media screen and (max-width: 1100px) {
+  .sliderBlock section a > button {
+    margin: 0px 0 10px 0;
+    width: 220px;
+  }
+}
+@media screen and (max-width: 1100px) and (max-width: 900px) {
+  .sliderBlock section a > button {
+    display: none;
+  }
+}
+.sliderBlock .modile_version {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .sliderBlock .modile_version {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+}

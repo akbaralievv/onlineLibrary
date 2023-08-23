@@ -1,0 +1,104 @@
+.mobile_adaptaionBlock {
+  display: none;
+}
+@media screen and (max-width: 760px) {
+  .mobile_adaptaionBlock {
+    padding: 100px 0 0 0;
+    display: block;
+    position: relative;
+  }
+  .mobile_adaptaionBlock > .child_user_userBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0px auto;
+    width: 100%;
+  }
+  .mobile_adaptaionBlock > .child_user_userBlock .parent_settingBlock {
+    position: absolute;
+    right: 10px;
+    top: 120px;
+  }
+}
+@media screen and (max-width: 760px) and (max-width: 500px) {
+  .mobile_adaptaionBlock > .child_user_userBlock .parent_settingBlock {
+    right: 40px;
+    top: 100px;
+  }
+}
+@media screen and (max-width: 760px) and (max-width: 500px) and (max-width: 400px) {
+  .mobile_adaptaionBlock > .child_user_userBlock .parent_settingBlock {
+    right: 30px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .mobile_adaptaionBlock > .child_user_userBlock .parent_settingBlock > button {
+    background-color: transparent;
+    border: none;
+  }
+}
+
+.parent_userBlock {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
+  padding-top: 100px;
+  position: relative;
+}
+@media screen and (max-width: 1100px) {
+  .parent_userBlock {
+    gap: 20px;
+    padding: 100px 50px 0px 0px;
+  }
+}
+@media screen and (max-width: 1100px) and (max-width: 760px) {
+  .parent_userBlock {
+    padding: 0px;
+  }
+}
+.parent_userBlock .child_books_userBlock {
+  width: 75%;
+}
+@media screen and (max-width: 700px) {
+  .parent_userBlock .child_books_userBlock {
+    width: 100%;
+  }
+}
+.parent_userBlock .child_user_userBlock {
+  width: 20%;
+  padding-bottom: 100px;
+}
+@media screen and (max-width: 760px) {
+  .parent_userBlock .child_user_userBlock {
+    display: none;
+  }
+}
+.parent_userBlock .child_user_userBlock .parent_settingBlock {
+  padding: 75px 0 40px 0;
+}
+.parent_userBlock .child_user_userBlock .parent_settingBlock button {
+  border: 1px solid #FF4004;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 125.3%;
+  color: #FF4004;
+  background: transparent;
+  background-image: url("../../assests/images/Setting/setting_img.svg");
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position-x: 95%;
+  background-position-y: 50%;
+  padding: 8px 50px 8px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}

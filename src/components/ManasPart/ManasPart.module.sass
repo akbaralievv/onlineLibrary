@@ -1,0 +1,141 @@
+.parent_manasPart
+    max-width: 100%
+    h4
+        font-weight: 400
+        font-size: 96px
+        line-height: 125.3%
+        letter-spacing: 0.19em
+        color: #000
+        text-align: center
+        margin-bottom: 40px
+        @media screen and ( max-width: 1000px )
+            font-size: 40px
+            @media screen and ( max-width: 600px )
+                font-size: 30px
+                letter-spacing: 2px
+                @media screen and ( max-width: 450px )
+                    font-size: 25px
+                    letter-spacing: -1px
+                    font-weight: 500
+    h4::first-letter
+        color: #FF4004
+        font-family: 'Pacifico'
+        font-style: normal
+        @media screen and ( max-width: 1000px )
+            font-size: 60px
+            letter-spacing: 7px 
+            @media screen and ( max-width: 600px )
+                font-size: 40px
+                letter-spacing: 6px 
+                @media screen and ( max-width: 450px )
+                    font-size: 25px
+                    letter-spacing: 2px 
+    .child_manasPart
+        background-color: #E2E2E2
+        display: flex
+        justify-content: center
+        gap: 50px
+        padding: 0 50px
+        align-items: center
+        @media screen and ( max-width: 1350px )
+            padding: 50px
+            @media screen and ( max-width: 900px )
+                padding: 20px
+                gap: 10px
+                @media screen and ( max-width: 520px )
+                    padding: 10px
+                    gap: 0
+        .child_manasPart_left , .child_manasPart_right
+            max-width: 440px
+            max-height: 500px
+            @media screen and ( max-width: 800px )
+                height: 300px
+                width: 260px
+                @media screen and ( max-width: 630px )
+                    height: 250px
+                    @media screen and ( max-width: 570px )
+                        height: 180px
+                        width: 200px
+                        @media screen and ( max-width: 390px )
+                            width: 130px
+                            height: 140px
+            img
+                width: 100%
+                height: 100%
+        .child_manasPart_right
+            @media screen and ( max-width: 1100px )
+                display: none
+        .child_manasPart_center
+            > div
+                display: flex
+                justify-content: center
+                align-items: center
+                gap: 20px
+                @media screen and ( max-width: 900px )
+                    gap: 10px
+                > div
+                    position: relative
+                    display: flex
+                    flex-direction: column
+                    justify-content: space-between
+                    // align-items: center
+                    width: 200px
+                    height: 270px
+                    @media screen and ( max-width: 900px )
+                        width: 190px
+                        height: 250px
+                        @media screen and ( max-width: 650px )
+                            width: 140px
+                            height: 200px
+                            @media screen and ( max-width: 530px )
+                                width: 120px
+                                height: 170px
+                                @media screen and ( max-width: 430px )
+                                    width: 100px
+                                    height: 135px
+                    img
+                        width: 100%
+                        height: 100%
+                p
+                    font-weight: 500
+                    font-size: 24px
+                    line-height: 125.3%
+                    max-width: 245px
+                    color: #000000
+                    @media screen and ( max-width: 900px )
+                        font-size: 20px
+                        @media screen and ( max-width: 800px )
+                            font-size: 15px
+                            // background: red
+                            max-width: 150px
+                            @media screen and ( max-width: 530px )
+                                font-size: 12px
+                    span
+                        color: #FF4004
+                        font-weight: 500
+                        font-size: 24px
+                        line-height: 125.3%
+                        width: 279px
+                        @media screen and ( max-width: 900px )
+                            font-size: 18px
+                            @media screen and ( max-width: 530px )
+                                font-size: 12px
+                button
+                    background: #FF4004
+                    padding: 8px 50px
+                    border-radius: 10px
+                    display: block
+                    margin: 32px auto 10px
+                    font-size: 26px
+                    font-weight: 400
+                    border: none
+                    @media screen and ( max-width: 900px )
+                        padding: 5px 20px
+                        font-size: 20px
+                        // margin: 50px 0
+                        position: absolute
+                        bottom: 10px
+                        @media screen and ( max-width: 530px )
+                            font-size: 12px
+
+     
